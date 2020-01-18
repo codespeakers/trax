@@ -23,10 +23,10 @@ or [open an issue](https://github.com/google/trax/issues) if needed.
 
 You can use Trax either as a library from your own python scripts and notebooks
 or as a binary from the shell, which can be more convenient for training large models.
-Trax includes a number of deep learning models (ResNet, Transformer, RNNs, ...)
+Trax includes several deep learning models (ResNet, Transformer, RNNs, ...)
 and has bindings to a large number of deep learning datasets, including
 [Tensor2Tensor](https://github.com/tensorflow/tensor2tensor) and [TensorFlow datasets](https://www.tensorflow.org/datasets/catalog/overview).
-It runs without any changes on CPUs, GPUs and TPUs.
+It runs without any changes on CPUs, GPUs, and TPUs.
 
 To see how to use Trax as a library, take a look at this [quick start colab](https://colab.research.google.com/github/google/trax/blob/master/trax/intro.ipynb)
 which explains how to create data in python, connect it to a Transformer model in Trax, train it and run inference.
@@ -36,7 +36,7 @@ runtime. With TPUs in colab you need to set extra flags as demonstrated in these
 and [inference](https://colab.research.google.com/github/google/trax/blob/master/trax/models/reformer/image_generation.ipynb) colabs.
 
 To use Trax as a binary and not forget all the parameters (model type, learning
-rate, other hyper-paramters and training settings), we recommend [gin-config](https://github.com/google/gin-config).
+rate, other hyper-parameters and training settings), we recommend [gin-config](https://github.com/google/gin-config).
 Take a look at [an example gin config](https://github.com/google/trax/blob/master/trax/configs/mlp_mnist.gin)
  for training a simple MLP on MNIST and run it as follows:
 
@@ -77,7 +77,7 @@ To get the most recent update on Trax development, [chat with us](https://gitter
 Most common supervised learning models in Trax are running and should have clear
 code &mdash; if this is not the case, please [open an issue](https://github.com/google/trax/issues)
 or, even better, send along a pull request (see [our contribution doc](CONTRIBUTING.md)).
-In Trax we value documentation, examples and colabs so if you find any
+In Trax we value documentation, examples, and colabs so if you find any
 problems with those, please report it and contribute a solution.
 
 We are still improving a few smaller parts of [layers](https://github.com/google/trax/tree/master/trax/layers),
